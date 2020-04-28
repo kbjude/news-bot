@@ -43,6 +43,7 @@ GEM
     nio4r (2.5.2)
     puma (4.3.3)
       nio4r (~> 2.0)
+    rack (2.2.2)
     slack-ruby-bot (0.14.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -69,6 +70,7 @@ DEPENDENCIES
   celluloid-io
   dotenv
   puma
+  rack
   slack-ruby-bot
 
 BUNDLED WITH
