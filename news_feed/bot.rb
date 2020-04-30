@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module NewsFeed
   # the commands to run use for different outputs.
   class Bot < SlackRubyBot::Bot
