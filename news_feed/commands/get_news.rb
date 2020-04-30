@@ -1,8 +1,11 @@
+# frozen_string_literal: true
+
 require 'rss'
 require 'open-uri'
 
 module NewsFeed
   module Commands
+    # Scraping the nes from the site
     class GetNews < SlackRubyBot::Commands::Base
       url = 'http://fetchrss.com/rss/5eaaedad8a93f885248b45685eaaed938a93f8ef238b4567.xml'
       rss_value = RSS::Parser.parse(open(url).read, false).items
@@ -29,6 +32,7 @@ module NewsFeed
         client.say(channel: data.channel, text: Greeting.greet)
       end
     end
+    # A welcome remark
     class Greeting
       def self.greet
         'Hello, this bot will give you the news!'
