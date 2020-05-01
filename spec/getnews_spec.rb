@@ -10,8 +10,11 @@ RSpec.describe NewsFeed::Commands::GetNews do
       it ' indicating that wrong information is input' do
         expect(news.get_response(1_000_000)).to eql('not found')
       end
-      it 'returns the requested for link' do
+      it 'returns the most trending' do
         expect(news.get_response(0)).to eql(url)
+      end
+      it 'returns the second trending site' do
+        expect(news.get_response(1)).to eql(news.get_response(1))
       end
     end
   end
