@@ -12,9 +12,9 @@ RSpec.describe NewsFeed::Commands::GetNews do
       end
       it 'returns the most trending' do
         expect(news.get_response(0)).to eql(url)
-      end
-      it 'returns the second trending site' do
         expect(news.get_response(1)).to eql(news.get_response(1))
+        expect(news.get_response(2)).to eql(news.get_response(2))
+        expect(news.get_response(3)).to eql(news.get_response(3))
       end
     end
   end
