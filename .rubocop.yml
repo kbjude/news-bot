@@ -18,6 +18,11 @@ Metrics/BlockLength:
   ExcludedMethods: ['describe']
   Max: 30
 
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+
 Style/HashEachMethods:
   Enabled: false
 Style/HashTransformKeys:
@@ -37,8 +42,6 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-Security/Open:
-  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
@@ -46,3 +49,4 @@ Layout/ExtraSpacing:
   AllowForAlignment: false
 Layout/MultilineMethodCallIndentation:
   Enabled: true
+  EnforcedStyle: indented
