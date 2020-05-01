@@ -5,7 +5,6 @@ module NewsFeed
   module Commands
     # Scraping the nes from the site
     class GetNews < SlackRubyBot::Commands::Base
-
       def self.get_response(index)
         url = 'http://fetchrss.com/rss/5eaaedad8a93f885248b45685eaaed938a93f8ef238b4567.xml'
         rss_value = RSS::Parser.parse(open(url).read, false).items
