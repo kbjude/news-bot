@@ -28,11 +28,11 @@ In order to use this bot, you need to:
 ### Using the Bot:
 #### Setting up and Using the Bot
 	- Open and sign in to your slack account.
-	- Go to [this site](https://api.slack.com/apps)
+	- Go to (https://api.slack.com/apps)
 	- Create a slack app with a name and a development work group
 	- Select BOT
 	- Add a Bot token scope of chat:write
-	- Make sure that you have a .env file with [this token](xoxb-1078546597143-1119584943872-9CFpjYcRe8kxZorW9sQEm77S)
+	- Make sure that you have a .env file with this "token xoxb-1078546597143-1119584943872-9CFpjYcRe8kxZorW9sQEm77S"
 
 - To activate the Bot, make sure you are in the project root directory
 - Then run the rackup command in your terminal
