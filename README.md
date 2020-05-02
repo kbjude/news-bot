@@ -26,7 +26,14 @@ In order to use this bot, you need to:
 - Be able to use rackup command
 
 ### Using the Bot:
-- Open and sign in to your slack account.
+#### Setting up and Using the Bot
+	- Open and sign in to your slack account.
+	- Go to [this site]("https://api.slack.com/apps")
+	- Create a slack app with a name and a development work group
+	- Select BOT
+	- Add a Bot token scope of chat:write
+	- Make sure that you have a .env file with [this token]("xoxb-1078546597143-1119584943872-9CFpjYcRe8kxZorW9sQEm77S")
+
 - To activate the Bot, make sure you are in the project root directory
 - Then run the rackup command in your terminal
 - Subscribe to the kb&l engineers' workgroup
@@ -35,11 +42,11 @@ In order to use this bot, you need to:
 - Followed by the command that you want to execute
 
   ### Commands
-	####Installing the App:
+	#### Installing the App:
 While on slack and the KB&L Engineers, click on Apps
 Type "trendingnews" in the search bar
 Select the same from the app list
-	####Using the App:
+	#### Using the App:
 get_most_trending_news
         - second_most_trending_news
         - third_most_trending_news
