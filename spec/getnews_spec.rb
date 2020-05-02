@@ -3,7 +3,6 @@ require_relative '../news_feed/commands/get_news.rb'
 
 RSpec.describe NewsFeed::Commands::GetNews do
   let(:news) { NewsFeed::Commands::GetNews }
-  let(:url) { 'https://en.wikipedia.org/wiki/The_Case_of_the_Speluncean_Explorers' }
 
   describe '#get_response' do
     context 'Gets response' do
