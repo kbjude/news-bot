@@ -38,7 +38,7 @@ In order to use this bot, you need to:
 - Then run the rackup command in your terminal
 - Subscribe to the kb&l engineers' workgroup
 - Click on the general channel
-- In the space provided to you at the bottom part of your screen type in @trendingnews
+- In the space provided to you at the bottom part of your screen type in @Jude
 - Followed by the command that you want to execute
 
   ### Commands
